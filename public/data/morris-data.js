@@ -1,117 +1,23 @@
 $(function() {
-
-    Morris.Area({
-        element: 'morris-area-chart',
-        data: [{
-            period: '2010 Q1',
-            iphone: 2666,
-            ipad: null,
-            itouch: 2647
-        }, {
-            period: '2010 Q2',
-            iphone: 2778,
-            ipad: 2294,
-            itouch: 2441
-        }, {
-            period: '2010 Q3',
-            iphone: 4912,
-            ipad: 1969,
-            itouch: 2501
-        }, {
-            period: '2010 Q4',
-            iphone: 3767,
-            ipad: 3597,
-            itouch: 5689
-        }, {
-            period: '2011 Q1',
-            iphone: 6810,
-            ipad: 1914,
-            itouch: 2293
-        }, {
-            period: '2011 Q2',
-            iphone: 5670,
-            ipad: 4293,
-            itouch: 1881
-        }, {
-            period: '2011 Q3',
-            iphone: 4820,
-            ipad: 3795,
-            itouch: 1588
-        }, {
-            period: '2011 Q4',
-            iphone: 15073,
-            ipad: 5967,
-            itouch: 5175
-        }, {
-            period: '2012 Q1',
-            iphone: 10687,
-            ipad: 4460,
-            itouch: 2028
-        }, {
-            period: '2012 Q2',
-            iphone: 8432,
-            ipad: 5713,
-            itouch: 1791
-        }],
-        xkey: 'period',
-        ykeys: ['iphone', 'ipad', 'itouch'],
-        labels: ['iPhone', 'iPad', 'iPod Touch'],
-        pointSize: 2,
-        hideHover: 'auto',
-        resize: true
-    });
-
-    Morris.Donut({
-        element: 'morris-donut-chart',
-        data: [{
-            label: "Download Sales",
-            value: 12
-        }, {
-            label: "In-Store Sales",
-            value: 30
-        }, {
-            label: "Mail-Order Sales",
-            value: 20
-        }],
-        resize: true
-    });
-
-    Morris.Bar({
-        element: 'morris-bar-chart',
-        data: [{
-            y: '2006',
-            a: 100,
-            b: 90
-        }, {
-            y: '2007',
-            a: 75,
-            b: 65
-        }, {
-            y: '2008',
-            a: 50,
-            b: 40
-        }, {
-            y: '2009',
-            a: 75,
-            b: 65
-        }, {
-            y: '2010',
-            a: 50,
-            b: 40
-        }, {
-            y: '2011',
-            a: 75,
-            b: 65
-        }, {
-            y: '2012',
-            a: 100,
-            b: 90
-        }],
-        xkey: 'y',
-        ykeys: ['a', 'b'],
-        labels: ['Series A', 'Series B'],
-        hideHover: 'auto',
-        resize: true
-    });
-    
-});
+Morris.Area({
+element: 'morris-area-chart',
+xkey: 'period',
+ykeys: ['USDAUD','USDGBP','USDCAD','USDEUR','USDMAD'],
+labels: ['Dollard Australie($AU)', 'Livre sterling(£)', 'Dollard Canada($CA)','EURO ()','Dirham Marocain(DH)'],
+pointSize: 2,
+hideHover: 'auto',
+resize: true,
+data:[
+{"USDAUD":1.345303,"USDGBP":0.79005,"USDCAD":1.333098,"USDEUR":0.947006,"USDMAD":9.996975,"period":"2016-12-04"},
+{"USDAUD":1.302104,"USDGBP":0.79882,"USDCAD":1.339904,"USDEUR":0.896904,"USDMAD":9.787504,"period":"2016-11-04"},
+{"USDAUD":1.3141,"USDGBP":0.78551,"USDCAD":1.31976,"USDEUR":0.8917,"USDMAD":9.712697,"period":"2016-10-04"},
+{"USDAUD":1.321801,"USDGBP":0.75215,"USDCAD":1.29934,"USDEUR":0.895896,"USDMAD":9.724504,"period":"2016-09-04"},
+{"USDAUD":1.309016,"USDGBP":0.76176,"USDCAD":1.30162,"USDEUR":0.897895,"USDMAD":9.765104,"period":"2016-08-04"},
+{"USDAUD":1.326913,"USDGBP":0.752878,"USDCAD":1.286452,"USDEUR":0.8969,"USDMAD":9.76211,"period":"2016-07-04"},
+{"USDAUD":1.357485,"USDGBP":0.688891,"USDCAD":1.295963,"USDEUR":0.879809,"USDMAD":9.661838,"period":"2016-06-04"},
+{"USDAUD":1.340089,"USDGBP":0.689636,"USDCAD":1.280558,"USDEUR":0.870447,"USDMAD":9.564896,"period":"2016-05-04"},
+{"USDAUD":1.315125,"USDGBP":0.701036,"USDCAD":1.306297,"USDEUR":0.877972,"USDMAD":9.634016,"period":"2016-04-04"},
+{"USDAUD":1.344134,"USDGBP":0.70274,"USDCAD":1.333638,"USDEUR":0.908517,"USDMAD":9.839932,"period":"2016-03-04"},
+{"USDAUD":1.389202,"USDGBP":0.685892,"USDCAD":1.379978,"USDEUR":0.892679,"USDMAD":9.746881,"period":"2016-02-04"},
+{"USDAUD":1.392154,"USDGBP":0.679566,"USDCAD":1.391911,"USDEUR":0.923285,"USDMAD":9.92757,"period":"2016-01-04"},
+{"USDAUD":1.362516,"USDGBP":0.661737,"USDCAD":1.335826,"USDEUR":0.919026,"USDMAD":9.923244,"period":"2015-12-04"}]});});
