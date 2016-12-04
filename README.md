@@ -34,14 +34,14 @@ npm start
 You should have something like that in your nodejs terminal
 
 ```
-> currency@0.0.0 start C:\Users\Amine\Desktop\Application\Cordova\currency\Real-time_currency_graph
+> currency@0.0.0 start C:\Users\user\Desktop\Application\Cordova\currency\Real-time_currency_graph
 > node ./bin/www
 ```
 
 
 ## Running 
 
-go to 127.0.0.1:3000 inn you favorite browser
+go to 127.0.0.1:3000 in you favorite browser
 
 
 
