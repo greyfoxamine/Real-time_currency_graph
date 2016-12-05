@@ -60,6 +60,8 @@ go to [http://127.0.0.1:3000](http://127.0.0.1:3000) in you favorite browser
 ## Authors
 
 * **Amine Dourid** - *Initial work* - [Dourid Amine](https://github.com/greyfoxamine)
+* **Said Elhafydy** - *Initial work* - [Said El hafydy](https://github.com/selhafyd)
+* ** Mohammed Bouhamidi** - *Initial work* - [Bouhamidi Mohammed](https://github.com/bouhamidiMohammed)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
