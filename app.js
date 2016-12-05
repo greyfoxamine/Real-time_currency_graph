@@ -19,9 +19,11 @@ app.set('view engine', 'jade');
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+
 
 app.use('/', index);
 app.use('/historique', historique);
@@ -42,7 +44,14 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+   var data=new Object();
+	  data.error=new Object();
+  data.error.code=404;
+	data.error.info="La page demande n'éxiste pas ou n'est pas accessible";
+	data.error.type="page non trouvé";
+	
+
+	res.render("error.ejs" ,{data:data});
 });
 
 module.exports = app;

@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('ordre_history.ejs');
+  res.render('layout.ejs');
 });
 
 module.exports = router;
