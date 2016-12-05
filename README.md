@@ -41,7 +41,7 @@ You should have something like that in your nodejs terminal
 
 ## Running 
 
-go to 127.0.0.1:3000 in you favorite browser
+go to [https://127.0.0.1:3000](https://127.0.0.1:3000) in you favorite browser
 
 
 
