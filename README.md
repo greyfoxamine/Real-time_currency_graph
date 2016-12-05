@@ -7,7 +7,7 @@ This application will allow you to see the change in the exchange rate of the US
 ## Getting Started
 
 This application is made with framing NODE.js and uses the API (https://currencylayer.com/documentation)
-And the trader.developper API (https://developer.tradier.com/) so you must have node js install in your machine as well as an access key for both Api that you can retrieve from the websites inform
+And the moneypush API (http://www.bigdata-trade.com/) so you must have node js install in your machine as well as an access key for both Api that you can retrieve from the websites inform
 
 
 
